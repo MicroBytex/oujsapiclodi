@@ -1,0 +1,27 @@
+name = "mi-api-de-imagenes"
+main = "api/index.js"
+compatibility_date = "2024-07-27"  # Usa la fecha actual o la más reciente
+
+# [vars]
+#   MY_VARIABLE = "my-value"  # Si necesitas variables de entorno
+
+# [[kv_namespaces]]
+#   binding = "MY_NAMESPACE"
+#   id = "YOUR_NAMESPACE_ID"   # Si usas Cloudflare KV
+
+# [[r2_buckets]]
+#   binding = "MY_BUCKET"
+#   bucket_name = "your-bucket-name"  # Si usas Cloudflare R2 Storage
+
+# [d1_databases]
+#   binding = "DB"
+#   database_name = "your-database-name"  # Si usas Cloudflare D1 (SQL Database)
+#   database_id = "your-database-id"
+
+# [[ queues.producers ]]
+#   binding = "MY_QUEUE"
+#   queue = "your-queue-name"      # Si usas Cloudflare Queues
+
+# [[ queues.consumers ]]
+#   queue = "your-queue-name"
+#   max_batch_size = 10  # Ajusta según tus necesidades
